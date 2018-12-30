@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyLongtitude</string>
+    <string-array name="ph_tanah">
+        <item>tidak asam</item>
+        <item>agak asam</item>
+        <item>asam</item>
+        <item>agak basa</item>
+        <item>basa</item>
+    </string-array>
+    <string-array name="curah_hujan">
+        <item>tidak hujan</item>
+        <item>agak hujan</item>
+        <item>hujan</item>
+        <item>hujan terus</item>
+        <item>badai</item>
+    </string-array>
+</resources>

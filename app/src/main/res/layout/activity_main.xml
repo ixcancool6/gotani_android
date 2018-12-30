@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationText"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/getLocationBtn"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textlongtitude"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/submit"
+        android:visibility="invisible"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textlatitude"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/submit"
+        android:visibility="invisible"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dapatkan Lokasi Saya"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:id="@+id/getLocationBtn"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:textColor="@color/white"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:textColor="@color/white"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_alignTop="@+id/spinner1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Ph Tanah "
+        android:textSize="21dp"
+        android:textColor="@color/white"
+        android:layout_above="@+id/spinner1"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_alignStart="@+id/spinner1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curah Hujan"
+        android:textSize="21dp"
+        android:textColor="@color/white"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_alignStart="@+id/spinner2" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/spinner2"
+        android:layout_toStartOf="@+id/spinner2"
+        android:layout_marginBottom="18dp" />
+
+
+</RelativeLayout>
